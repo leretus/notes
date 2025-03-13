@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NIGABALLSX3D</title>
+</head>
+<body>
+<header>
+    <section id="baner">
+        <button id="mainbut" onclick="add()">Nowa Notka</button>
+        <select id="categories">
+            <option value="chores">Obowiązki domowe</option>
+            <option value="homework">Zadania domowe</option>
+            <option value="todo">Do zrobienia</option>
+        </select>
+        <input id="text" type="text"placeholder="Wpisz text tutaj">
+    </section>
+    <section id="nag"><p>Obowiązki Domowe</p><p>Do zrobienia</p><p>Zadania Domowe</p></section>
+</header>
+<main>
+    <div class="cat" id="chores"></div>
+    <div class="cat" id="todo"></div>
+    <div class="cat" id="homework"></div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
