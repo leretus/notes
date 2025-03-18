@@ -44,15 +44,17 @@ inp.addEventListener("keydown", function (e)
 });
 
 async function add() {
+    const title = document.getElementById('title');
     const text = document.getElementById('text');
     const category = document.getElementById('categories').value;
     if (text.value.trim() !== "") {
         await fetch('/notes', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ text: text.value, category: category })
+            body: JSON.stringify({ text: text.value, category: category, title: title.value})
         });
         text.value = ''; 
+        title.value = ''; 
     }
 
     fetchnote();

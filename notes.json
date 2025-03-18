@@ -24,66 +24,6 @@
     "filename": "1741625928890.txt"
   },
   {
-    "id": 1741626048850,
-    "text": "Jebanie warszawki",
-    "category": "todo",
-    "filename": "1741626048849.txt"
-  },
-  {
-    "id": 1741626053480,
-    "text": "dupa",
-    "category": "todo",
-    "filename": "1741626053479.txt"
-  },
-  {
-    "id": 1741626487167,
-    "text": "da",
-    "category": "todo",
-    "filename": "1741626487166.txt"
-  },
-  {
-    "id": 1741626491065,
-    "text": "dada",
-    "category": "todo",
-    "filename": "1741626491064.txt"
-  },
-  {
-    "id": 1741626500970,
-    "text": "adad",
-    "category": "todo",
-    "filename": "1741626500969.txt"
-  },
-  {
-    "id": 1741626501691,
-    "text": "dada",
-    "category": "todo",
-    "filename": "1741626501690.txt"
-  },
-  {
-    "id": 1741626502235,
-    "text": "da",
-    "category": "todo",
-    "filename": "1741626502235.txt"
-  },
-  {
-    "id": 1741626502379,
-    "text": "a",
-    "category": "todo",
-    "filename": "1741626502378.txt"
-  },
-  {
-    "id": 1741626502537,
-    "text": "da",
-    "category": "todo",
-    "filename": "1741626502536.txt"
-  },
-  {
-    "id": 1741626502680,
-    "text": "a",
-    "category": "todo",
-    "filename": "1741626502679.txt"
-  },
-  {
     "id": 1741626503009,
     "text": "aa",
     "category": "todo",
@@ -94,5 +34,17 @@
     "text": "a",
     "category": "todo",
     "filename": "1741626503182.txt"
+  },
+  {
+    "id": 1742280125129,
+    "text": "dupa",
+    "category": "todo",
+    "filename": "1742280125128.txt"
+  },
+  {
+    "id": 1742280137175,
+    "text": "duap",
+    "category": "todo",
+    "filename": "dupa.txt"
   }
 ]

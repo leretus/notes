@@ -60,7 +60,7 @@ app.get('/notes', (req, res) => {
 
 
 app.post('/notes', (req, res) => {
-    const { text, category } = req.body;
+    const { text, category,title } = req.body;
 
     if (!text || !category) {
         return res.status(400).json({ message: 'Text and category are required' });
@@ -71,9 +71,17 @@ app.post('/notes', (req, res) => {
         if (err) {
             console.error("Error creating category folder:", err);
             
+        };
+        let filename = `${Date.now()}.txt`;
+      if(title)
+        {
+            filename = `${title}.txt`;
         }
-
-        const filename = `${Date.now()}.txt`;
+            
+        
+              
+        
+        
         fs.writeFile(path.join(folder, filename), text, (err) => {
             
 
