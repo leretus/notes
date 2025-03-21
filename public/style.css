@@ -1,82 +1,94 @@
-*{
-    padding: 0 ;
-    margin: 0;
-    font-family: sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
 }
-header
-{
-    background-color: rgb(69, 69, 73);
+#note-display {
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgb(184, 192, 224);
+  background-color: rgb(73, 77, 100);
+  width: 500px;
+  height: 600px;
+  border-radius: 10%;
+  text-align: center;
 }
-#mainbut
-{
-    border-radius:20px ;
-    background-color: rgb(46, 43, 43);
+header {
+  background-color: rgb(24, 25, 38);
 }
-button
-{
-    border: none;
-    color: rgb(112, 112, 112);
-    background-color: black;
-    width: 100px;
-    height: 50px;
-    margin-bottom: 10px;
+#mainbut {
+  border-radius: 10px;
+  background-color: rgb(30, 32, 48);
 }
-.deletebutton{
-    width: 80px;
-    height: 40px;
+button {
+  border: none;
+  color: rgb(112, 112, 112);
+  background-color: black;
+  width: 100px;
+  height: 50px;
+  margin-bottom: 10px;
 }
-button:hover
-{
-    color: rgb(255, 255, 255);
-    background-color: rgb(239, 239, 255);
+.deletebutton,
+.showbutton {
+  width: 80px;
+  height: 40px;
 }
-body
-{
-    background-color: rgb(69, 69, 73);
+button {
+  border-radius: 10px;
 }
-.cat
-{
-    border-left:1px black solid ;
-    border-right:1px black solid ;
-    width: 33%;
-    height:90vh;
-    position: relative;
-    float: left;
-    background-color: rgb(69, 69, 73);
-    border-bottom-left-radius:10%;
-    border-bottom-right-radius:10%;
-
+.showbutton {
+  background-color: rgb(166, 218, 149);
 }
-.cat p 
-{
-    font-size: 20px;
-    margin: 10px;
-    position: relative;
-    border-bottom:1px black solid ;
+.close {
+  position: relative;
+  top: 80%;
+  background-color: rgb(165, 173, 203);
 }
-#baner
-{
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
+button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(239, 239, 255);
 }
-#categories
-{
-    margin-left:10px; 
-    margin-right: 10px;
+body {
+  background-color: rgb(36, 39, 58);
 }
-#nag 
-{
-    display: flex;
-    background-color: rgb(0, 0, 0);
-    height: 20px;
-
+.cat {
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  width: 33%;
+  height: 90vh;
+  position: relative;
+  float: left;
+  background-color: rgb(36, 39, 58);
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
 }
-#nag p
-{
-    color: rgb(255, 255, 255);
-    width: 33%;
-    text-align: center;
-    font-size: 15px;
-    line-height: 20px;
+.cat p {
+  font-size: 20px;
+  margin: 10px;
+  position: relative;
+  border-bottom: 1px black solid;
+}
+#baner {
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+#categories {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#nag {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  height: 20px;
+}
+#nag p {
+  color: rgb(255, 255, 255);
+  width: 33%;
+  text-align: center;
+  font-size: 15px;
+  line-height: 20px;
 }
